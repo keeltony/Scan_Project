@@ -3,5 +3,14 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 60px;
+}
 
+.navigation ul{
+    display: flex;
+    justify-content: space-between;    
+    list-style-type: none;
+}
+
+.navigation ul li{
+    margin-right: 20px;
 }

@@ -8,7 +8,7 @@ export function Header (props:any) {
             <div>
                 <img src={require('../image/logo_green.png')} alt="logo" />
             </div>
-            <nav>
+            <nav className='navigation'>
                 <ul>
                     <li>
                         <a>Главная </a>

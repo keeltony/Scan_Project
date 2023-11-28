@@ -66,3 +66,32 @@
     margin-top: 19px;
     margin-left: 20px;
 }
+
+.rate{
+    margin: 0px 60px
+}
+
+.rate h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.rate_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate_wrapper_rate{
+    height: 540px;
+    width: 415px;
+    border: 2px solid #FFB64F;
+    border-radius: 10px;
+}
+
+.rate_wrapper_one_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFB64F;
+}

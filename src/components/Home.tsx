@@ -37,10 +37,18 @@ export function Home () {
             <div>
                 <img src="" alt="Вставить фото" />
             </div>
-            <div>
+            <div className="rate">
                 <h2>наши тарифы</h2>
-                <div>
-                    <div></div>
+                <div className="rate_wrapper">
+                    <div className="rate_wrapper_rate">
+                        <div className="rate_wrapper_one_header">
+                            <div className="rate_wrapper_one_header_text">
+                                <h4>Beginner</h4>
+                                <p>Для небольшого исследования</p>
+                            </div>
+                            <img src="" alt="logo" />
+                        </div>
+                    </div>
                     <div></div>
                     <div></div>
                 </div>
