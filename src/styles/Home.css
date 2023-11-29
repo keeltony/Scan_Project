@@ -9,6 +9,7 @@
 .home_page_one_text h1{
     font-size: 60px;
     font-weight: 900;
+    text-transform: uppercase;
 
 }
 
@@ -67,6 +68,14 @@
     margin-left: 20px;
 }
 
+.home_img_des{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 107px;
+}
+
 .rate{
     margin: 0px 60px
 }
@@ -80,18 +89,74 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 70px;
 }
 
-.rate_wrapper_rate{
+.rate_wrapper_component{
     height: 540px;
     width: 415px;
     border: 2px solid #FFB64F;
     border-radius: 10px;
 }
 
-.rate_wrapper_one_header{
+.rate_wrapper_header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #FFB64F;
+    height: 132px;
+}
+
+.rate_wrapper_header_text{
+    margin-left: 30px;
+}
+
+.rate_wrapper_header_text h4{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rate_wrapper_header_text p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rate_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rate_info_text_one h4 {
+    font-size: 36px; 
+    margin-bottom: 10px;
+}
+
+.rate_info_text_one h4 span{
+    font-size: 30px; 
+    text-decoration: line-through;
+    padding-left: 10px;
+    color: #727070;
+}
+
+.rate_info_text_two h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 91px;
+}
+
+
+.rate_info_text_two p{
+    margin-top: 5px;
+}
+
+.rate_wrapper_button{
+    height: 59px;
+    width: 355px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: #D2D2D2;
+    margin-top: 55px;
 }

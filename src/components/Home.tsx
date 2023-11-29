@@ -34,23 +34,78 @@ export function Home () {
                     <div>q</div>
                 </div>
             </div>
-            <div>
-                <img src="" alt="Вставить фото" />
+            <div className="home_img_des">
+                <img src={require('../image/home_img_des.png')} alt="Вставить фото" />
             </div>
             <div className="rate">
                 <h2>наши тарифы</h2>
                 <div className="rate_wrapper">
-                    <div className="rate_wrapper_rate">
-                        <div className="rate_wrapper_one_header">
-                            <div className="rate_wrapper_one_header_text">
+                    <div className="rate_wrapper_component">
+                        <div className="rate_wrapper_header">
+                            <div className="rate_wrapper_header_text">
                                 <h4>Beginner</h4>
                                 <p>Для небольшого исследования</p>
                             </div>
                             <img src="" alt="logo" />
                         </div>
+                        <div className="rate_info">
+                            <div className="rate_info_text_one">
+                                <h4>799 ₽    <span>  1 200 ₽</span></h4>
+                                <p>или 150 ₽/мес. при рассрочке на 24 мес.</p>
+                            </div>
+                            <div className="rate_info_text_two">
+                                <h4>В тариф входит:</h4>
+                                <p>Безлимитная история запросов</p>
+                                <p>Безопасная сделка</p>
+                                <p>Поддержка 24/7</p>
+                            </div>
+                            <button className="rate_wrapper_button" type="button">Перейти в личный кабинет</button>
+                        </div>
                     </div>
-                    <div></div>
-                    <div></div>
+                    <div className="rate_wrapper_component">
+                        <div className="rate_wrapper_header">
+                            <div className="rate_wrapper_header_text">
+                                <h4>Beginner</h4>
+                                <p>Для небольшого исследования</p>
+                            </div>
+                            <img src="" alt="logo" />
+                        </div>
+                        <div className="rate_info">
+                            <div className="rate_info_text_one">
+                                <h4>799 ₽    <span>  1 200 ₽</span></h4>
+                                <p>или 150 ₽/мес. при рассрочке на 24 мес.</p>
+                            </div>
+                            <div className="rate_info_text_two">
+                                <h4>В тариф входит:</h4>
+                                <p>Безлимитная история запросов</p>
+                                <p>Безопасная сделка</p>
+                                <p>Поддержка 24/7</p>
+                            </div>
+                            <button className="rate_wrapper_button" type="button">Перейти в личный кабинет</button>
+                        </div>
+                    </div>
+                    <div className="rate_wrapper_component">
+                        <div className="rate_wrapper_header">
+                            <div className="rate_wrapper_header_text">
+                                <h4>Beginner</h4>
+                                <p>Для небольшого исследования</p>
+                            </div>
+                            <img src="" alt="logo" />
+                        </div>
+                        <div className="rate_info">
+                            <div className="rate_info_text_one">
+                                <h4>799 ₽    <span>  1 200 ₽</span></h4>
+                                <p>или 150 ₽/мес. при рассрочке на 24 мес.</p>
+                            </div>
+                            <div className="rate_info_text_two">
+                                <h4>В тариф входит:</h4>
+                                <p>Безлимитная история запросов</p>
+                                <p>Безопасная сделка</p>
+                                <p>Поддержка 24/7</p>
+                            </div>
+                            <button className="rate_wrapper_button" type="button">Перейти в личный кабинет</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
